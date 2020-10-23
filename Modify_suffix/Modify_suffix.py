@@ -1,6 +1,10 @@
 import os
 import sys
 
+'''
+批量修改文件夹下所有文件的后缀名
+'''
+
 old_suffix = sys.argv[1]
 new_suffix = sys.argv[2]
 filepath = sys.argv[3]
